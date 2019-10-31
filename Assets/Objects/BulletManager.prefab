@@ -43,5 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b93bc3219144957a078d462c301db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 114509651151952622, guid: 771122a580e014f9ea15965d4f68c529,
+  defaultBulletPrefab: {fileID: 6500517990855806380, guid: 50d1bd50d6bf64d95a187c81be42ebd0,
     type: 3}
+  rapidBulletPrefab: {fileID: 6335622412889625352, guid: c76ce16ab00f342779b547404d3bfe87,
+    type: 3}
+  grenadeBulletPrefab: {fileID: 7093287490819963047, guid: d5ccb11222cfe448d8f57a0e7280131a,
+    type: 3}
+  bulletSpeed: 1

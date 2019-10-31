@@ -39,6 +39,14 @@ public class BaseBullet : PoolableObject
         transform.position = _pos;
     }
 
+    /// <summary>
+    /// Called when this object moves outside of all cameras.
+    /// </summary>
+    public void OnBecameInvisible()
+    {
+        Return2Pool();
+    }
+
     // Update is called once per frame
     protected void Update()
     {

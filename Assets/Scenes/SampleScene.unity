@@ -112,6 +112,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &189603885 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114996831175225342, guid: 4a1126da82f6147beb503a0d5528bb03,
+    type: 3}
+  m_PrefabInstance: {fileID: 1333386875}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b93bc3219144957a078d462c301db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,10 +282,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114158312468902966, guid: f7c7269f6180f42438e1fe77ced64bc9,
+        type: 3}
+      propertyPath: bulletManager
+      value: 
+      objectReference: {fileID: 189603885}
     - target: {fileID: 8511216727764715235, guid: f7c7269f6180f42438e1fe77ced64bc9,
         type: 3}
       propertyPath: m_Name
       value: MyFighter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8511216727764715235, guid: f7c7269f6180f42438e1fe77ced64bc9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2687695663715788196, guid: f7c7269f6180f42438e1fe77ced64bc9,
         type: 3}
@@ -332,24 +354,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7c7269f6180f42438e1fe77ced64bc9, type: 3}
---- !u!1 &3800190280267905625 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8511216727764715235, guid: f7c7269f6180f42438e1fe77ced64bc9,
-    type: 3}
-  m_PrefabInstance: {fileID: 3800190280267905624}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3800190280267905626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3800190280267905625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68ab2c259070540d4be109cac3bc2872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &3800190280267905629 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2687695663715788196, guid: f7c7269f6180f42438e1fe77ced64bc9,
